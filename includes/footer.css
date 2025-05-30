@@ -1,0 +1,46 @@
+.main-footer {
+  background-color: #f8f9fa;
+  color: #333;
+  margin-top: 30px;
+  font-size: 14px;
+  text-align: center; /* Center everything inside footer */
+}
+
+.footer-title {
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.footer-links {
+  padding: 0;
+  list-style: none;
+}
+
+
+
+.footer-links li a:hover {
+  color: #3498db;
+  text-decoration: underline;
+}
+
+.main-footer i {
+  margin-right: 6px;
+  color: #3498db;
+}
+
+/* Optional: Center text in each column on small screens */
+@media (max-width: 767px) {
+  .main-footer .col-sm-4 {
+    margin-bottom: 20px;
+  }
+}
+.footer-links li a i {
+  margin-right: 8px;
+  color: #3498db;
+  transition: 0.3s;
+}
+
+.footer-links li a:hover i {
+  color: #2c3e50;
+}

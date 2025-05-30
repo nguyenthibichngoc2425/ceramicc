@@ -1,0 +1,111 @@
+.main-header .navbar {
+  background-color: #d0e6f7;
+  border-bottom: 2px solid #7da6d9;
+  box-shadow: 0 2px 6px rgba(125,166,217,0.5);
+}
+
+.main-header .navbar-brand {
+  color: #c9ced7;
+}
+
+.main-header .navbar-brand b {
+  color: #151618;
+}
+
+.main-header .navbar-nav > li > a {
+  color: #5c6f88;
+}
+
+.main-header .navbar-nav > li > a:hover,
+.main-header .navbar-nav > li.active > a {
+  background-color: #7da6d9;
+  color: #fff;
+}
+
+.main-header .dropdown-menu {
+  background-color: #a9c1e8;
+}
+
+.main-header .dropdown-menu > li > a {
+  color: #1c3e6a;
+}
+
+.main-header .dropdown-menu > li > a:hover {
+  background-color: #5f83c1;
+  color: #fff;
+}
+
+.label-success.cart_count {
+  background-color: #1c3e6a;
+}
+
+/* Navbar toggle button (mobile) */
+.navbar-toggle {
+  border: none;
+  background: transparent !important;
+  color: #fff !important;
+  font-size: 22px;
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+
+/* Search input */
+.navbar-form .form-control {
+  border-radius: 20px;
+  border: 1.5px solid #ee6c4d;
+  padding: 6px 15px;
+  width: 220px;
+  transition: border-color 0.3s;
+}
+
+.navbar-form .form-control:focus {
+  border-color: #0a9396;
+  box-shadow: none;
+}
+
+/* Search button */
+.navbar-form .btn {
+  background-color: #ee6c4d;
+  border: none;
+  color: #fff;
+  border-radius: 20px;
+  padding: 6px 15px;
+  margin-left: 5px;
+  transition: background-color 0.3s;
+}
+
+.navbar-form .btn:hover {
+  background-color: #ca5137;
+}
+
+/* Cart icon and badge */
+.navbar-custom-menu .fa-shopping-cart {
+  color: #fff;
+  font-size: 20px;
+}
+
+
+
+/* User menu */
+.user-menu > a {
+  color: #fff !important;
+  padding: 10px 12px;
+  display: flex;
+  align-items: center;
+}
+
+.user-menu .user-image {
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+  margin-right: 8px;
+  object-fit: cover;
+  border: 2px solid #ee6c4d;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+  .navbar-form .form-control {
+    width: 100px;
+  }
+}
